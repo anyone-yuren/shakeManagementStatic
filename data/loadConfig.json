@@ -1,0 +1,28 @@
+{
+	"master": {
+		"loadHeader": {
+			"value": "../data/createHeader.json",
+			"method": "get"
+		},
+		"registerUser": {
+			"value": "UserReg/registerUser",
+			"method": "POST"
+		},
+		"checkLoginName": {
+			"value": "UserReg/checkLoginName",
+			"method": "POST"
+		},
+		"activeAccount": {
+			"value": "UserReg/activeAccount",
+			"method": "POST"
+		},
+		"checkAuthCode":{
+			"value": "UserReg/checkAuthCode",
+			"method": "POST"
+		},
+		"resendEmail":{
+			"value":"UserReg/resendEmail",
+			"method":"POST"
+		}
+	}
+}
